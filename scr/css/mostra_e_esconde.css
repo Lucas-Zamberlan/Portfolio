@@ -1,0 +1,470 @@
+
+.conteudo_balao {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    max-width: 18vw;
+ 
+    border: solid #36bf5a;
+    position: absolute;
+   
+    
+}
+
+.seta_esconde{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* conteudo html */
+.conteudo_html.visible{
+    visibility: visible;
+    opacity: 1;  
+    top: 10vw;
+    left: 12vw;
+}
+
+/* seta html */
+
+
+.seta_html.visible{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+/* conteudo css */
+
+.conteudo_css.visible{
+    visibility: visible;
+    opacity: 1;
+    top: 11.3vw;
+    left: 12vw;
+}
+
+/* seta css */
+.seta_css.visible{
+    visibility: visible;
+    opacity: 1; 
+}
+
+/* conteudo javascrip */
+
+.conteudo_javascrip.visible{
+    visibility: visible;
+    opacity: 1;
+    top: 12.3vw;
+    left: 12vw;
+}
+
+/* seta javascrip */
+.seta_javascrip.visible{
+    visibility: visible;
+    opacity: 1; 
+}
+
+/* conteudo python */
+
+.conteudo_python.visible{
+    visibility: visible;
+    opacity: 1;
+    top: 14.2vw;
+    left: 12vw;
+}
+
+/* seta python */
+.seta_python.visible{
+    visibility: visible;
+    opacity: 1; 
+}
+
+/* conteudo git */
+.conteudo_git.visible{
+    visibility: visible;
+    opacity: 1;
+    top: 14.5vw;
+    left: 12vw;
+}
+
+/* seta git */
+.seta_git.visible{
+    visibility: visible;
+    opacity: 1; 
+}
+
+/* conteudo git_hub */
+.conteudo_git_hub.visible{
+    visibility: visible;
+    opacity: 1;
+    top: 16.5vw;
+    left: 12vw;
+}
+
+/* seta git_hub */
+.seta_git_hub.visible{
+    visibility: visible;
+    opacity: 1; 
+}
+
+/* conteudo vba */
+
+.conteudo_vba.visible{
+    visibility: visible;
+    opacity: 1;
+    top: 17.8vw;
+    left: 12vw;
+}
+
+/* seta vba */
+.seta_vba.visible{
+    visibility: visible;
+    opacity: 1; 
+}
+
+/* conteudo clp */
+.conteudo_clp.visible{
+    visibility: visible;
+    opacity: 1;
+    top: 19.5vw;
+    left: 12vw;
+}
+
+/* seta clp */
+.seta_clp.visible{
+    visibility: visible;
+    opacity: 1; 
+}
+
+/* conteudo arduimo */
+.conteudo_arduino.visible{
+    visibility: visible;
+    opacity: 1;
+    top: 21vw;
+    left: 12vw;
+}
+
+/* seta arduino */
+.seta_arduino.visible{
+    visibility: visible;
+    opacity: 1; 
+}
+
+@Media only screen and (min-width: 768px) and (max-width:1000px) {
+
+
+
+    .conteudo_balao {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+        max-width: 18vw;
+     
+        border: solid #36bf5a;
+        position: absolute;
+       
+        
+    }
+    
+    .seta_esconde{
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+    }
+    
+    /* conteudo html */
+    .conteudo_html.visible{
+        visibility: visible;
+        opacity: 1;  
+        top: 25vw;
+        left: 35vw;
+    }
+    
+    /* seta html */
+    
+    
+    .seta_html.visible{
+        visibility: visible;
+        opacity: 1;
+        
+    }
+    
+    /* conteudo css */
+    
+    .conteudo_css.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 27vw;
+        left: 35vw;
+    }
+    
+    /* seta css */
+    .seta_css.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo javascrip */
+    
+    .conteudo_javascrip.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 30vw;
+        left: 35vw;
+    }
+    
+    /* seta javascrip */
+    .seta_javascrip.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo python */
+    
+    .conteudo_python.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 35vw;
+        left: 35vw;
+    }
+    
+    /* seta python */
+    .seta_python.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo git */
+    .conteudo_git.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 35vw;
+        left: 35vw;
+    }
+    
+    /* seta git */
+    .seta_git.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo git_hub */
+    .conteudo_git_hub.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 40vw;
+        left: 35vw;
+    }
+    
+    /* seta git_hub */
+    .seta_git_hub.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo vba */
+    
+    .conteudo_vba.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 42vw;
+        left: 35vw;
+    }
+    
+    /* seta vba */
+    .seta_vba.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo clp */
+    .conteudo_clp.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 50vw;
+        left: 35vw;
+    }
+    
+    /* seta clp */
+    .seta_clp.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo arduimo */
+    .conteudo_arduino.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 55vw;
+        left: 35vw;
+    }
+    
+    /* seta arduino */
+    .seta_arduino.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+
+
+}
+
+
+
+@Media only screen and (max-width:768px) {
+
+    .conteudo_balao {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+        max-width: 18vw;
+     
+        border: solid #36bf5a;
+        position: absolute;
+       
+        
+    }
+    
+     .seta_esconde{
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+    } 
+    
+    /* conteudo html */
+    .conteudo_html.visible{
+        visibility: visible;
+        opacity: 1;  
+        top: 26vw;
+        left: 35vw;
+    }
+    
+    /* seta html */
+    
+    
+    .seta_html.visible{
+        visibility: visible;
+        opacity: 1;
+        
+    }
+    
+    /* conteudo css */
+    
+    .conteudo_css.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 27vw;
+        left: 35vw;
+    }
+    
+    /* seta css */
+    .seta_css.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo javascrip */
+    
+    .conteudo_javascrip.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 30vw;
+        left: 35vw;
+    }
+    
+    /* seta javascrip */
+    .seta_javascrip.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo python */
+    
+    .conteudo_python.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 35vw;
+        left: 35vw;
+    }
+    
+    /* seta python */
+    .seta_python.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo git */
+    .conteudo_git.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 35vw;
+        left: 35vw;
+    }
+    
+    /* seta git */
+    .seta_git.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo git_hub */
+    .conteudo_git_hub.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 40vw;
+        left: 35vw;
+    }
+    
+    /* seta git_hub */
+    .seta_git_hub.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo vba */
+    
+    .conteudo_vba.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 42vw;
+        left: 35vw;
+    }
+    
+    /* seta vba */
+    .seta_vba.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo clp */
+    .conteudo_clp.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 50vw;
+        left: 35vw;
+    }
+    
+    /* seta clp */
+    .seta_clp.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+    
+    /* conteudo arduimo */
+    .conteudo_arduino.visible{
+        visibility: visible;
+        opacity: 1;
+        top: 55vw;
+        left: 35vw;
+    }
+    
+    /* seta arduino */
+    .seta_arduino.visible{
+        visibility: visible;
+        opacity: 1; 
+    }
+
+
+
+
+
+}

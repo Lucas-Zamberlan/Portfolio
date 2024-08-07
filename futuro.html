@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Lucas Zamberlan</title>
+    <link rel="stylesheet" href="./scr/css/style.css">
+    <link rel="stylesheet" href="./scr/css/media_1000.css">
+</head>
+
+<body>
+    <div class="fundo">
+
+        <div class="card flip_front">
+
+            <div class="face front">
+                <div class="conteudo">
+                    <header>
+                        <div class="logo">
+                            <a href="./index.html"><img src="./scr/Imagens/logo.png" class="logo_img" alt="logo"></a>
+                        </div>
+
+                        <div class="ul">
+
+                            <a class="icones" href="lucaszamberlan32@gmail.com"><img src="./scr/Imagens/icones-de-messagerie-violet.png"
+                                    alt="Icone_Email"></a>
+
+
+
+                            <a class="icones" href="https://github.com/Lucas-Zamberlan" target="_blank"><img src="./scr/Imagens/icone-github-violet.png" alt="Icone_Github"></a>
+
+
+                            <a class="icones" href="https://www.linkedin.com/in/lucas-zamberlan-a86757238/" target="_blank"><img src="./scr/Imagens/icone-linkedin-ronde-violet.png"
+                                    alt="Icone_Linkedin"></a>
+                        </div>
+
+                    </header>
+
+                    <div class="main">
+                        <div class="main_esquerda_futuro">
+                            <h1 class="sub_titulos">Futuro</h1>
+                            <p class="paragrafo_futuro">Eu separei essa pequena parte pra falar sobre minhas expectativas para o futuro. Sempre gostei muito da área de tecnologia e espero poder trabalhar como dev front-end ou em alguma outra linguagem e com uma equipe criativa para impactar positivamente a experiência do usuário. Sempre me atualizando com as tecnologias modernas e estar aprendendo ainda mais com colegas de equipe, cursos ou até mesmo sozinho. Pretento começar uma faculdade na área de programação em breve e conseguir meu primeiro emprego na área.
+                            </p>
+                        </div>
+
+                        <div class="selecao">
+                            <div class="main_imagens_direita">
+                                <div class="card_img_direita perfil cor" id="teste">
+                                    <a href="./perfil.html"> <img src="./scr/Imagens/pessoa.jpg" alt="Foto_de_Perfil"></a>
+                                    <div class="texto_perfil_direita">
+                                        <h2 class="titulos_direita">Perfil</h2>
+                                        <a class="link_ver_mais" href="#">Ver mais &#8594;</a>
+                                    </div>
+                                </div>
+
+                                <div class="card_img_direita habilidades cor">
+                                    <a href="./habilidades.html"><img src="./scr/Imagens/habilidades.png" alt="Foto_relacionado_a_Habilidades"></a>
+                                    <div class="texto_habilidades_direita">
+                                        <h2 class="titulos_direita">Habilidades</h2>
+                                        <a class="link_ver_mais" href="./habilidades.html">Ver mais &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main_imagens_direita_div">
+                                <div class="card_img_direita projetos cor2">
+                                   <a href="./projetos.html"> <img src="./scr/Imagens/projetos.png" alt="Foto_relacionado_a_Projetos"></a>
+                                    <div class="texto_projetos_direita">
+                                        <h2 class="titulos_direita">Projetos</h2>
+                                        <a class="link_ver_mais" href="./projetos.html">Ver mais &#8594;</a>
+                                    </div>
+                                </div>
+                                <div class="card_img_direita futuro cor2">
+                                    <a href="./futuro.html"><img src="./scr/Imagens/futuro.png" alt="Foto_relacionado_ao_Futuro"></a>
+                                    <div class="texto_futuro_direita">
+                                        <h2 class="titulos_direita">Futuro</h2>
+                                        <a class="link_ver_mais" href="./futuro.html">Ver mais &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer>
+                        <p>Criado por Lucas Zamberlan Zancanela</p>
+                    </footer>
+                </div>
+
+              
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="face back">
+        <div>
+
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+
+    <script>
+        // Primeira img perfil
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const perfil = document.querySelector('.perfil');
+            const textoPerfil = document.querySelector('.texto_perfil_direita');
+
+            perfil.addEventListener('mouseover', () => {
+                textoPerfil.classList.add('visible');
+            });
+
+            perfil.addEventListener('mouseout', () => {
+                textoPerfil.classList.remove('visible');
+            });
+        });
+
+        // Segunda img habilidades
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const perfil = document.querySelector('.habilidades');
+            const textoPerfil = document.querySelector('.texto_habilidades_direita');
+
+            perfil.addEventListener('mouseover', () => {
+                textoPerfil.classList.add('visible');
+            });
+
+            perfil.addEventListener('mouseout', () => {
+                textoPerfil.classList.remove('visible');
+            });
+        });
+
+        // Terceira img projetos
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const perfil = document.querySelector('.projetos');
+            const textoPerfil = document.querySelector('.texto_projetos_direita');
+
+            perfil.addEventListener('mouseover', () => {
+                textoPerfil.classList.add('visible');
+            });
+
+            perfil.addEventListener('mouseout', () => {
+                textoPerfil.classList.remove('visible');
+            });
+        });
+
+        //Quarta img futuro
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const perfil = document.querySelector('.futuro');
+            const textoPerfil = document.querySelector('.texto_futuro_direita');
+
+            perfil.addEventListener('mouseover', () => {
+                textoPerfil.classList.add('visible');
+            });
+
+            perfil.addEventListener('mouseout', () => {
+                textoPerfil.classList.remove('visible');
+            });
+        }); 
+    </script>
+</body>
+
+</html>

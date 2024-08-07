@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Lucas Zamberlan</title>
+    <link rel="stylesheet" href="./scr/css/style.css">
+    <link rel="stylesheet" href="./scr/css/media_1000.css">
+
+</head>
+
+<body>
+
+    <div class="fundo">
+
+        <div class="card flip_front">
+
+            <div class="face front">
+                <div class="conteudo">
+                    <header>
+                        <div class="logo">
+                            <a href="./index.html"><img src="./scr/Imagens/logo.png" class="logo_img" alt="logo"></a>
+                        </div>
+
+                        <div class="ul">
+
+                            <a class="icones" href="lucaszamberlan32@gmail.com"><img
+                                    src="./scr/Imagens/icones-de-messagerie-violet.png" alt="Icone_Email"></a>
+
+
+
+                            <a class="icones" href="https://github.com/Lucas-Zamberlan" target="_blank"><img
+                                    src="./scr/Imagens/icone-github-violet.png" alt="Icone_Github"></a>
+
+
+                            <a class="icones" href="https://www.linkedin.com/in/lucas-zamberlan-a86757238/"
+                                target="_blank"><img src="./scr/Imagens/icone-linkedin-ronde-violet.png"
+                                    alt="Icone_Linkedin"></a>
+                        </div>
+                    </header>
+
+                    <div class="main">
+                        <div class="main_esquerda_projetos">
+                            <div class="projetos_lista visible">
+                                <h1 class="sub_titulos">Projetos</h1>
+
+                                <a href="#" onclick="escolha_projeto(1)" class="figma estilo">Projeto de listagem de
+                                    pokemon</a>
+
+                                <a href="#" onclick="escolha_projeto(2)" id="projeto2" class="trailer estilo">Landig
+                                    page com um trailer de filme</a>
+
+                                <a href="#" onclick="escolha_projeto(3)" id="projeto3" class="download estilo">Landing
+                                    page empresa xyz</a>
+
+                                <a href="#" onclick="escolha_projeto(4)" id="projeto4"
+                                    class="comparador_vba estilo">Portifolio</a>
+                            </div>
+
+                            <div class="projetos_figma">
+                                <h1 class="sub_titulos">Projeto Listagem</h1>
+                                <p class="paragrafo">Esse projeto foi feito para fazer uma listagem de alguns pokemons e
+                                    para praticar o CSS e JavaScrip.
+                                </p>
+                                <div class="links_projetos">
+                                    <a href="https://lucas-zamberlan.github.io/projeto-listagem-pokemon/"
+                                        target="_blank" class="link_ver_mais_projetos">Ver site</a><br> <a
+                                        href="https://github.com/Lucas-Zamberlan/projeto-listagem-pokemon"
+                                        target="_blank" class="link_ver_mais_projetos">GitHub</a>
+                                </div>
+                            </div>
+
+
+                            <div class="projetos_trailer">
+                                <h1 class="sub_titulos">Projeto Trailer de filme</h1>
+                                <p class="paragrafo">Uma landing page para a exposição de um trailer de um filme foi
+                                    feito para praticar o Html,CSS e JavaScrip.
+                                </p>
+                                <div class="links_projetos">
+                                    <a href="https://lucas-zamberlan.github.io/Projeto-Landing-Page-Trailer/"
+                                        target="_blank" class="link_ver_mais_projetos">Ver site</a><br> <a
+                                        href=" https://github.com/Lucas-Zamberlan/Projeto-Landing-Page-Trailer"
+                                        target="_blank" class="link_ver_mais_projetos">GitHub</a>
+                                </div>
+                            </div>
+
+                            <div class="projetos_download">
+                                <h1 class="sub_titulos">Projeto Landing page</h1>
+                                <p class="paragrafo">Esse foi um projeto para criar uma Landing page de uma empresa que
+                                    não existe para praticar a criação e o desing de páginas web.
+                                </p>
+                                <div class="links_projetos">
+                                    <a href="https://lucas-zamberlan.github.io/Projeto-lading-page/" target="_blank"
+                                        class="link_ver_mais_projetos">Ver site</a><br> <a
+                                        href="https://github.com/Lucas-Zamberlan/Projeto-lading-page" target="_blank"
+                                        class="link_ver_mais_projetos">GitHub</a>
+                                </div>
+                            </div>
+
+                            <div class="projetos_comparador">
+                                <h1 class="sub_titulos">Portifólio</h1>
+                                <p class="paragrafo">Esse é um projeto feito por mim aonde eu coloquei em prática minhas
+                                    habilidades de Html, CSS e JavaScrip para a criação desse Portifólio.
+                                </p>
+                                <div class="links_projetos">
+                                    <a href="" class="link_ver_mais_projetos">GitHub</a>
+                                </div>
+                            </div>
+
+                            <div class="botoes">
+                                <div class="img_butao_esquerdo"> <a onclick="escolha_projeto('botao_esquerdo')"
+                                        id="botao_esquerdo" href="#"><img src="./scr/Imagens/seta-esquerda.png"
+                                            alt="Botão_da_Esquerda"></a>
+                                </div>
+
+                                <div class="img_butao_meio">
+                                    <a href="#" onclick="escolha_projeto('botao_menu')"><img src="./scr/Imagens/menu.png"
+                                            alt="Icone_menu"></a>
+                                </div>
+
+                                <div class="img_butao_direito visible"><a onclick="escolha_projeto('botao_direito')"
+                                        id="botao_direito" href="#"><img src="./scr/Imagens/seta-direita.png"
+                                            alt="Botão_da_Direita"></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="selecao">
+                            <div class="main_imagens_direita">
+                                <div class="card_img_direita perfil cor " id="teste">
+                                    <a href="./perfil.html"> <img src="./scr/Imagens/pessoa.jpg" alt="Foto_de_Perfil"></a>
+                                    <div class="texto_perfil_direita">
+                                        <h2 class="titulos_direita">Perfil</h2>
+                                        <a class="link_ver_mais" href="#">Ver mais &#8594;</a>
+                                    </div>
+                                </div>
+
+                                <div class="card_img_direita habilidades cor">
+                                    <a href="./habilidades.html"><img src="./scr/Imagens/habilidades.png"
+                                            alt="Foto_relacionado_a_Habilidades"></a>
+                                    <div class="texto_habilidades_direita">
+                                        <h2 class="titulos_direita">Habilidades</h2>
+                                        <a class="link_ver_mais" href="./habilidades.html">Ver mais &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main_imagens_direita_div">
+                                <div class="card_img_direita projetos cor2">
+                                    <a href="./projetos.html"> <img src="./scr/Imagens/projetos.png"
+                                            alt="Foto_relacionado_a_Projetos"></a>
+                                    <div class="texto_projetos_direita">
+                                        <h2 class="titulos_direita">Projetos</h2>
+                                        <a class="link_ver_mais" href="./projetos.html">Ver mais &#8594;</a>
+                                    </div>
+                                </div>
+                                <div class="card_img_direita futuro cor2">
+                                    <a href="./futuro.html"><img src="./scr/Imagens/futuro.png"
+                                            alt="Foto_relacionado_ao_Futuro"></a>
+                                    <div class="texto_futuro_direita">
+                                        <h2 class="titulos_direita">Futuro</h2>
+                                        <a class="link_ver_mais" href="./futuro.html">Ver mais &#8594;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer>
+                        <p>Criado por Lucas Zamberlan Zancanela</p>
+                    </footer>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="face back">
+        <div>
+
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="./scr/js/projetos.js"></script>
+
+</body>
+
+</html>
